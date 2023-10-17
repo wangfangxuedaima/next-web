@@ -6,8 +6,8 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ChatGPT Next Web",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "BLM-GPT",
+  description: "BLM ChatGPT Chat Bot.",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -33,6 +33,10 @@ export default function RootLayout({
       <head>
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
+        <link
+          rel="shortcut icon"
+          href="//cdntest.yueyuechuxing.cn/yueyue/admin/base/231012_1617/favicon.ico"
+        ></link>
         <script src="/serviceWorkerRegister.js" defer></script>
       </head>
       <body>{children}</body>
