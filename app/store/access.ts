@@ -13,7 +13,7 @@ const DEFAULT_ACCESS_STATE = {
   token: "",
   accessCode: "",
   needCode: true,
-  hideUserApiKey: false,
+  hideUserApiKey: true,
   hideBalanceQuery: false,
   disableGPT4: false,
 
