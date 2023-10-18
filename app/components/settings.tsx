@@ -669,7 +669,7 @@ export function Settings() {
               </div>
             </Popover>
           </ListItem>
-
+          {/* 发送键配置 */}
           <ListItem title={Locale.Settings.SendKey}>
             <Select
               value={config.submitKey}
@@ -687,8 +687,8 @@ export function Settings() {
               ))}
             </Select>
           </ListItem>
-
-          <ListItem title={Locale.Settings.Theme}>
+          {/* 主题theme设置 */}
+          {/* <ListItem title={Locale.Settings.Theme}>
             <Select
               value={config.theme}
               onChange={(e) => {
@@ -703,9 +703,9 @@ export function Settings() {
                 </option>
               ))}
             </Select>
-          </ListItem>
-
-          <ListItem title={Locale.Settings.Lang.Name}>
+          </ListItem> */}
+          {/* 语言设置 */}
+          {/* <ListItem title={Locale.Settings.Lang.Name}>
             <Select
               value={getLang()}
               onChange={(e) => {
@@ -718,7 +718,7 @@ export function Settings() {
                 </option>
               ))}
             </Select>
-          </ListItem>
+          </ListItem> */}
 
           <ListItem
             title={Locale.Settings.FontSize.Title}
@@ -771,8 +771,8 @@ export function Settings() {
             ></input>
           </ListItem>
         </List>
-
-        <SyncItems />
+        {/* 导入云端数据 或者 本地数据 */}
+        {/* <SyncItems /> */}
 
         <List>
           <ListItem
@@ -859,7 +859,7 @@ export function Settings() {
           ) : (
             <></>
           )}
-
+          {/* apiKey设置 */}
           {!accessStore.hideUserApiKey ? (
             <>
               {/* <ListItem

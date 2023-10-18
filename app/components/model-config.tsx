@@ -50,7 +50,7 @@ export function ModelConfigList(props: {
           }}
         ></InputRange>
       </ListItem>
-      <ListItem
+      {/* <ListItem
         title={Locale.Settings.TopP.Title}
         subTitle={Locale.Settings.TopP.SubTitle}
       >
@@ -128,9 +128,9 @@ export function ModelConfigList(props: {
             );
           }}
         ></InputRange>
-      </ListItem>
+      </ListItem> */}
 
-      <ListItem
+      {/* <ListItem
         title={Locale.Settings.InjectSystemPrompts.Title}
         subTitle={Locale.Settings.InjectSystemPrompts.SubTitle}
       >
@@ -196,7 +196,7 @@ export function ModelConfigList(props: {
             )
           }
         ></input>
-      </ListItem>
+      </ListItem> */}
       <ListItem title={Locale.Memory.Title} subTitle={Locale.Memory.Send}>
         <input
           type="checkbox"
