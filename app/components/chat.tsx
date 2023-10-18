@@ -464,7 +464,7 @@ export function ChatActions(props: {
         />
       )}
 
-      <ChatAction
+      {/* <ChatAction
         onClick={nextTheme}
         text={Locale.Chat.InputActions.Theme[theme]}
         icon={
@@ -478,7 +478,7 @@ export function ChatActions(props: {
             ) : null}
           </>
         }
-      />
+      /> */}
 
       <ChatAction
         onClick={props.showPromptHints}
