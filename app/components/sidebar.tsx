@@ -151,6 +151,10 @@ export function SideBar(props: { className?: string }) {
           {/* Build your own AI assistant. */}
           白龙马自用大模型
         </div>
+        <div className={styles["sidebar-sub-title"]}>
+          {/* Build your own AI assistant. */}
+          wangfang02
+        </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           {/* <ChatGptIcon /> */}
           <img
@@ -213,9 +217,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           {/* <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
-              <IconButton icon={<GithubIcon />} shadow />
-            </a>
+            <span style={{fontSize: 12}}>钉钉联系：王方</span>
           </div> */}
         </div>
         <div>
